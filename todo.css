@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&family=Roboto&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: aliceblue;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+#escreva{
+    display: flex;
+    justify-content: center;
+}
+#select{
+    display: flex;
+    justify-content: center;
+    
+}
+#todo-container{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    padding: 0%;
+}
+#botao{
+    width: 30px;
+    margin-left: 5px;
+}
+.mudarCor{
+    color: rgb(92, 255, 92);
+}

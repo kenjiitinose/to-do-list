@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&family=Roboto&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(243, 243, 243);
+}
+#container1{
+    width: 400px;
+    height: 300px;
+    border: 5px solid;
+    border-color: white;
+    border-radius: 10%;
+    background-color: aliceblue;
+    
+
+}
+#form1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    margin: 20px auto;
+    width: fit-content;
+}
+
+h3{
+    width: fit-content;
+    margin: 10px auto;
+}
+#user-email{
+    width: 200px;
+    margin: 0 auto;
+    border: 2px solid;
+    border-color:bisque;
+    border-radius: 7px;
+}
+#user-password{
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 7px;
+    border: 2px solid;
+    border-color:bisque;
+}
+#botao-login{
+    width: 75px;
+    margin: 10px auto;
+    border: 2px solid;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    cursor: pointer;
+}
+a{
+    margin: 10px auto;
+}
+#botao-login:hover{
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+p{
+    width: fit-content;
+    font-size: 13px;
+}
+#verificar{
+    width: fit-content;
+}
+#verificacao{
+    display: flex;
+    justify-content: center;
+    
+}
